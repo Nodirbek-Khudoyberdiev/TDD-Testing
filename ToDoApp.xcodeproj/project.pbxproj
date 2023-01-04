@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8650648D2964B067002B54A8 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650648C2964B067002B54A8 /* TaskCell.swift */; };
 		8650F5252962CE7800B82354 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650F5242962CE7800B82354 /* Location.swift */; };
 		8650F5272962D1D900B82354 /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650F5262962D1D900B82354 /* LocationTests.swift */; };
 		8650F52A2962D70F00B82354 /* TaskManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8650F5292962D70F00B82354 /* TaskManagerTests.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8650648C2964B067002B54A8 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		8650F5242962CE7800B82354 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		8650F5262962D1D900B82354 /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		8650F5292962D70F00B82354 /* TaskManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskManagerTests.swift; sourceTree = "<group>"; };
@@ -94,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8650648B2964B049002B54A8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8650648C2964B067002B54A8 /* TaskCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8650F5282962D6FE00B82354 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,6 +172,7 @@
 			children = (
 				8650F52B2962D78200B82354 /* Manager */,
 				8654419E2961FB2D007E2A9B /* Controller */,
+				8650648B2964B049002B54A8 /* View */,
 				8654419D2961FB28007E2A9B /* Model */,
 				866EB3742961F91300E27345 /* SupportingFiles */,
 			);
@@ -345,6 +356,7 @@
 				865441A02961FBB2007E2A9B /* Task.swift in Sources */,
 				866EB3492961F90800E27345 /* TaskListViewController.swift in Sources */,
 				866F9F87296361F200F6036E /* DataProvider.swift in Sources */,
+				8650648D2964B067002B54A8 /* TaskCell.swift in Sources */,
 				8650F5252962CE7800B82354 /* Location.swift in Sources */,
 				866EB3452961F90800E27345 /* AppDelegate.swift in Sources */,
 				866EB3472961F90800E27345 /* SceneDelegate.swift in Sources */,
